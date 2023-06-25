@@ -1,12 +1,6 @@
 # leitura
 
 * [Overview](#Overview)
-  * [1 Internet Banking System](#1-Internet-Banking-System)
-    * [API Application](#API-Application)
-    * [Single Page Application](#Single-Page-Application)
-      * [Dynamic Diagram](#Dynamic-Diagram)
-      * [Extended Docs](#Extended-Docs)
-  * [2 Deployment](#2-Deployment)
   * [Aplicativo de leitura](#Aplicativo-de-leitura)
     * [Container](#Container)
 
@@ -14,7 +8,7 @@
 
 ## Overview
 
-![diagram](https://www.plantuml.com/plantuml/svg/0/VLBBJiCm4BmZyG-cfoALvCA9Kr6f02b0bQP2d2BNMRKhENRmeuZ-JKy89Bx2FuRjjgGeAl8XwvdnpcJjeJPK6LlpqvCp58pR2iZIc4PVfQcYRya2pTBEhGR5f30WJC9adT9A8HKhRXkRZYul9fmACtl8KauDQEEXSkJL50Mef8dDmygkNvvcHVbyNzoLsVXs_7ZJFzyoqtTjeEvFCNpeWFHsLS-NEJGAj7UcH1AznObFoG6DLR6ieS9AUbNOBDn63uZRB2mbNcNNII-wJ41fAVhNHggo02QGoJABFNpFu1aOKhZFI96MweGmUus76Ycqswo0amOuRKD9tQQA0GxjHnnzAzXxxhOT7xR5oQi5OWroN7jK4tyNAtGVyf-__MCcHILh52X__IBYlZtKzMovqDuJMBalmP3gtHnpuEr57Pzc3ZG43cUw9ze1vC1W3aTKXybRuH145T_K3m00)
+![diagram](https://www.plantuml.com/plantuml/svg/0/hLCzRzim4DqD-3zSFJc0OosTEiLmZBQ0ym77QP19OCI3Sm15AhoZs-RVU2eoPEfFq1yBATaMN3UTEebwz-wzkqVfZ4Lv2QNfzpwGBKpG28yY5N_ACg--ZrSaZ-4XCFh2MK4huyALcTAUb5sRK8Li-l7qsYWhjnVpp2X1bWZbqyJ-8UEgaUxtvfFxgzjbVlTr-IMVppxFBi-79mc_Hi_E3YVYVBx4mbBXyZcI14zniX4CKWMMzKjJWguqYBK5LXuv3gN0WUmu4QgSvNgpHWCL6WMcwLAW7KE9chIBdF7WvD1-QYXAuSvp-thaKxGuF0M486JeEQ8CCQ4rrR_YAIQugZSyWdgp2WeGJ7W-CiidkYGR5_5A9szdjKk0szaVr9DcIwbV8-Te9YQhq-ekn1Trq5bqRT1CSVEJ1SlX3QL7IdXx-ejeWoVlVO3OvVV-dltU0itxLzevBr0ryMtbEJNlM_VNqV6_4OUsmyThbVgtfpRlk2I7qiKP65V1QWLhQgPzS0R57Gh_8_h_QBMJ-kFJcjb4nzDIaM6eb5TjOcTeTVEhl040)
 
 **Level 1: System Context diagram**
 
@@ -29,137 +23,33 @@ Supporting elements: People (e.g. users, actors, roles, or personas) and softwar
 
 **Intended audience**: Everybody, both technical and non-technical people, inside and outside of the software development team.
 
-## 1 Internet Banking System
-
-`\1 Internet Banking System`
-
-[Overview](#leitura)
-
-![diagram](https://www.plantuml.com/plantuml/svg/0/fLHDJnin4BqZyH-cELH12icbfvuA8IeW0X4R2Zr5izv9ujOVAzkRWAh-zuwzsML3Kt5e3Xjv_3ppvlcDl_Y0BbHQ7Hzza4QegY1OXr3wpwEHm-rm9SEwoYjFJbWJo8IXi7g4XPDeDgeggz7uq-bCeGaFqvkHma0-S6WnPZHAGsvOfkJ7HpTdt-yUvel7g_dbucRoTN9xqJ-9yHavRqs_pCK0UlK25PoZ-IdD2iQL3rQJw_7c6OZT2kmImfeWPzG0jimHokPaZ04AOIiJ_B37DR8N7qWl9i-XJvxpJ4urIWK-XMFYEQUIt9sBvwTIEEljCi3aMQpHh0YeU-1jIft7d5DkTkbGKyiyQzDdmJhoW4erl0K74j48v8FMQGpI6i3SLg5janCtZGmWE3GUHOJnYeBe4ZbdK87kfIyJcwlK38M6JEy4VXqV0V_QU-blaO6FbCDPMIefKlt8zWTk4D0Ka9Kkqfj-6yVm1IcvOKg9FvicI04xIoHqQ3NaiarhdZ-Ae4GM4L_B9ERxR7mPwMGrVXRn1sXvuMHPb-DxgHGcMyoStSXY9_116ilA9DrGoV02mRuA31k9yOnqi6KfScUtRFK3_7IaDxMvL8bPhFk46bcXVGgWf9Q12l1Lxfc23Vz1ITVrTdy5RQIW0zoAFDuF1ipHKwHpJmhhvD248HDhqjYnOvnfSBIIdfsLpDSnuW3MwDVS1bPCnOJTHO1mLCGbgjgRv3qek-eOSfyQbZ8ExkpgtouBNPUrGhuZMDG8uJgxknrTpkSpu0gfUbsV-wyhft7Fo1H-DyC-2J2TpnggBRGUumTF2VB4ZrbCdFs5IsBV4tBAZx1rVDSy4ZQUkRuu7tVXSS1gMpUpqzrDExKyJT6sdRsg-XtSxzXr1AOND4rr0smnxNRD9-rtm_fjD0fNlyXxwiLE6V65O-bL_mC0)
-
-**Level 2: Container diagram**
-
-Once you understand how your system fits in to the overall IT environment, a really useful next step is to zoom-in to the system boundary with a Container diagram. A "container" is something like a server-side web application, single-page application, desktop application, mobile app, database schema, file system, etc. Essentially, a container is a separately runnable/deployable unit (e.g. a separate process space) that executes code or stores data.
-
-The Container diagram shows the high-level shape of the software architecture and how responsibilities are distributed across it. It also shows the major technology choices and how the containers communicate with one another. It's a simple, high-level technology focussed diagram that is useful for software developers and support/operations staff alike.
-
-**Scope**: A single software system.
-
-**Primary elements**: Containers within the software system in scope.
-Supporting elements: People and software systems directly connected to the containers.
-
-**Intended audience**: Technical people inside and outside of the software development team; including software architects, developers and operations/support staff.
-
-**Notes**: This diagram says nothing about deployment scenarios, clustering, replication, failover, etc.
-
-## API Application
-
-`\1 Internet Banking System\API Application`
-
-[Overview](#leitura)
-
-![diagram](https://www.plantuml.com/plantuml/svg/0/fLHDRnen4BqZyH-c72gGA5nwwYb0qYPHFb0W_JYXMU-mkFN7olP2KTN_th6Ni4iQLP7AOV7EZj-yUVFiCn_GXKghRkUDD49LES4cXD9_68yTxaQ539iggpmvOKqW4qR2wZ7cJgBPggginhFtx-OAJNYylHah3EG3XrOppaPfo8tA17up-NR_k5nzkLfUhcukFbtSdVS7tKwtSyph-nA7q5j8KoY2EHO4ax9KKc2GrlJuqtVSeXTEbW7GvE08HOZnkRDRcPC7L0h2Xa0oKMSeG8Rc1-F1kZ8Yeg2IOG_1WgXyi9gSXwt4k4Sws546cRCxRdNK6xIPwKZircPI9KwnvbVKwAGvBGzAQXae1rzbdilRy1zqT5tly9VJLWfwnYlFkFmv1ipGKwJoG0fhO7WAmq9iI6FykWZMCSquInQla3wubCq4rzRfj1x21ls6My2AQPXma1-4epo-el93G278Ur2su1SA8j5Qx7qWlRhu6Vewyr4m9hbsg0ccXxxhb1QLE32xJY893Xm5QX42p6mL6eLITLkPm2lcRpmcALj4MWgjffoPezltiPHSTZA_EZ7L07vrEy2_cTMbDTnWtyl291iM1guCH2XdbI8NQTz-di436xm9n-X4ANPDqjN7QKO8RY4kNno_hsKOF2_TDDQR79Qmg3GRRVyg7aSZDdRQyUbbNtf6iOnIQytcYbIEGlxDn9Ee77ip2d5ODb_J_4eNEvaIdXw1KsUxQ4VsKjB45FLaXo0sMB-KwFtEkhmrl5CURAGr2ipf7tQ2ZodZ1LOJg3S3YrIFGXynJcTny4qipaVeu86M28-UZYh5X6PIRORFing0T50V27Du2piE4KiI6LwVJsVj7Isq-Wmbo7ZTyDrwkLpE5pNHt_6HIiGxys3PfzphnVrTatpCQhdhvSmwLxy6KBy6xunCpbS_m1y0)
-
-**Level 3: Component diagram**
-
-Next you can zoom in and decompose each container further to identify the major structural building blocks and their interactions.
-
-The Component diagram shows how a container is made up of a number of "components", what each of those components are, their responsibilities and the technology/implementation details.
-
-**Scope**: A single container.
-
-**Primary elements**: Components within the container in scope.
-Supporting elements: Containers (within the software system in scope) plus people and software systems directly connected to the components.
-
-**Intended audience**: Software architects and developers.
-
-## Single Page Application
-
-`\1 Internet Banking System\Single Page Application`
-
-[Overview](#leitura)
-
-![diagram](https://www.plantuml.com/plantuml/svg/0/xL9DRzim3BqRy7_WSag0Bhxij5sQfiNI8Ms3V6pOAM1irbQdI88a9nk6_VUISfgsoFO7XkRWIDGZ-TuZpqD47zkjphDtofIwhGYQ65tuM1GUzyDQnQRTj85yQKqa4uUbtHPOUOLcfrlN5kCFxsSQJLpTJ0kDaKBaq7fijyuQmRjKFC-ce-ztg-Nws_LoifvUVRwwlUmF93xckgWC-JuwTGQzqUmQHivfLM9KrlGuz80x13GLB9nNfeQRhsC9Nv9ME_81OaF0Eg8guS0oeIMi-EeDHTYW-I6vWJ-Qm65DWCzjXhtNPDONjZKL-b_zu91xBRgqcQIzP3U0tta6_3iAxdlRHaPpqhmx2TSvOHb1diZBVS84DNa8MWdTeDZtGw8mULqnHEj916D4MCYbArcrF-MmP9qbupngi9i7uaQDrPMe5GjUg4mkqMa3RMjbkD9K_k7U-kqpvx7649xQ960oxxI8y_PUQU4vwqx9hNyKIlxl6_AKE7BTcYgU5iYgGOa6TehsQOnKAHQaGi5eHWYxW_TvzaU6DYVTJQbRe5MWrERBukwsc2oNiqKtMu4TX3uPcg23JztRSMv_VJsgEtdDitCoLThojnr_s_7_VSSV0G00)
-
-**Level 3: Component diagram**
-
-Next you can zoom in and decompose each container further to identify the major structural building blocks and their interactions.
-
-The Component diagram shows how a container is made up of a number of "components", what each of those components are, their responsibilities and the technology/implementation details.
-
-**Scope**: A single container.
-
-**Primary elements**: Components within the container in scope.
-Supporting elements: Containers (within the software system in scope) plus people and software systems directly connected to the components.
-
-**Intended audience**: Software architects and developers.
-
-> Example of included local image
-
-![](2020-01-10-16-21-41.png)
-
-## Dynamic Diagram
-
-`\1 Internet Banking System\Single Page Application\Dynamic Diagram`
-
-[Overview](#leitura)
-
-![diagram](https://www.plantuml.com/plantuml/svg/0/NLF1Rjim3Bq7o3zmEQL3brns6Z2iYNDOXtKDwdRNWfOPMvjC6HIL81ZsxvDSTqdg4oNwFJu-KZT1KJHsRZfvPzcuM1Eqgdtuj5mA7XQDrJPMCP0Opqgi2-Ex9TPYaVSkzd5PVFomTSZwTFTzwL0fQBfwtXmPEsiM_K0zdHG9ZPP9vg77QvYLbXj7iCM6ODNtpXfKwtcMKhzmZy68xHMGQrXn4nrApcp5xsrD0T0vq9R09ad2f50X_qwCi8jiCWywgqTG3oO6zHr9WBt5XB4aSA0AAl67rDHYTdMcRLFDwohLsQ1YXO5opNj1auI-Na5fMkemPqhrahHaRq2eiK5bw26fsddfNk8MGqirO4noMSSkmGZL-OWkN0CQGo60yqqwa9fBJSzh7xb6ESuhaugkjhSNVbtzcKuWVONlUi-9SnvimvO7Ynk6MuPC9Tuv6ZmiUyb6tVqiu27DwarsvLpoPUWfPFioMUedXnT-hqU_osDGwhBWDoB8H4aZo0N7y9Gzax4cv8l9NWvGA6zK_Qea8t9hfaLkyg7740vUwZFZ_kPjUo3ticSdCsBLMGtdpYVMNFfRUVzZ-VNnSLjc-80SGMTD56dZ0jYmEisHwlaLv0cCeFy_3oiKo95HU0yxyTtevw4beI5ERuFWCtmPwc_MHIQPJcw8w-6v_0C0)
-
-**Dynamic diagram**
-
-A simple dynamic diagram can be useful when you want to show how elements in a static model collaborate at runtime to implement a user story, use case, feature, etc. This dynamic diagram is based upon a UML communication diagram (previously known as a "UML collaboration diagram"). It is similar to a UML sequence diagram although it allows a free-form arrangement of diagram elements with numbered interactions to indicate ordering.
-
-**Scope**: An enterprise, software system or container.
-
-**Primary and supporting elements**: Depends on the diagram scope; enterprise (see System Landscape diagram), software system (see System Context or Container diagrams), container (see Component diagram).
-
-**Intended audience**: Technical and non-technical people, inside and outside of the software development team.
-
-## Extended Docs
-
-`\1 Internet Banking System\Single Page Application\Extended Docs`
-
-[Overview](#leitura)
-
-![diagram](https://www.plantuml.com/plantuml/svg/0/TOvDQm8n48RF3UG_lE2X9vTMUkn1j3qAXVw2SNUw19F9aic2elvtpLhxiRQvJ9ZtuvcvPagv3zwQUxnttcKuoH5FwAXbjQOCpBOpQtJZfAD4OP1Mb5edU7mO2w_Rp4d8BwEF2MsYtTYnYAdXTD7NdkgDDTRKdbIn8ELb-PMLK63jg6O8vwhfGzXXyZ8yxAsvgxxSU3vCftZZf57EmeevEsaHVovl0lYq5TJnblSHOw7W6rvTkZ24hxt0VsVyplvrqq0TfKkYbrwvgQwsESkvmvy0)
-
-![diagram](https://www.plantuml.com/plantuml/svg/0/ROz12iCW44NtWdUO2-G28OIeEK6XT2qw2schgKu2lNqTxQA1hXpyR_x_inIocVRdGugj3i65pKQ2Qy4iXHJymZ236c5DjvJlKbX7uR24e1XGhEeHfWbSnlfzmTUEXM2UVr3Dg6RK_34oKXWOkWzBQueeXQykERrPRRkznTVUj2pFr3cazU7MdDDjpeKNZBwU-m40)
-
-Multiple markdowns can be ordered using `<name>.1.md, <name>.2.md .. <name>.<n>.md`
-
-You can choose where to place a certain diagram by using `![name](<diagram name>.puml)`
-
-![diagram](https://www.plantuml.com/plantuml/png/0/SoWkIImgISaiIKnKq7NbvTBMXG5j1GLz63j6GK419gFDorMZaEpa4we04THETdHqXB9rjSDIYuepy_DgG8fWe0QCN19B4i4CC0up1j9GHTfGwu0SfyJYLAYYv21Nb-gKMfYYckG0Fs-8IK1GNLnRW-ucgCaW8WOa1fBGX_e8PeM20Y-NGsfU2jZ30000)
-
-Feel free to add any additional details necesary.
-
-
-## 2 Deployment
-
-`\2 Deployment`
-
-[Overview](#leitura)
-
-![diagram](https://www.plantuml.com/plantuml/svg/0/rLPHJnin37v7uZzuVHcWqaA59hGdIikWYDAAAsEJ9bM-96qpSiafoHNOn7-VasifxOequ6dtK2MkFyV-RCSvSXwjBpArkV51QgOABc3YVUu-r-iMxsfZwIT5MZXXcT5UQ5zZ9giZjnBrL1LvKMyTxFOLQd_TlQWhzC9v4WtR8bVc8Gk0F5hVtBXeVkzT3uOtdS7PyEBazEIolRKTv0lLuQNXOYjNh0gLOpc6OzItGDlAoXuuUWH6264hsxytDu2-LJDS4ogLuvH0kvZBdPsT7_x-CDYwJWlj2zZ_LDixW8j1ycHZdHtCaKq4ePfn0GEJCVILLG4SrkwNx8IlHPoXrCAI5HaG_Guqyrn90aYZWv5pd2AWvf3aLkenTB-sWhXlpLHouQ0JWjJ2n-23mgZGB81HIVy0KqbeE4zwb_MpmQ2V01rHgsmlt7Wibu_hIPhnmzEz_MTiXUshUJ8McGeyzU82Tg5lPORseRAGxJVOonorqosUacwRafkY4m5t9HIMmS9S30cHdc7uD_764aMXEi6AiNJUHcsGUcHi5jTLcA2R20vO-0avEwCUc1KyR56vAY1ZmZbGPamRuTcR66miCzXu8uEDvnGcWjgElvR4nl_7OlgSlJkHbjrwyCPkRRotNSa3Gjo8z1_RjIsKd0hhWDW1kbA989XTc54xYF_gP4S_bCySnm9mSSmBj3skkoip4_ni5SwRJDYF3aWWoIONKyb46NLE-qul0MEXgRaraZy5lWYun95-jpH0i83-XjJ1KY_TI0XAPj9JCRWYTHIF6QsFR_ccyWROp4yNhot2IBliS0nzRQ0qTVBbI8Ea20CWE2rfF3apyd0ZDJTtBlXKHfuXwoKl3edKahAmirmVbxjWyTIOa9lMnD9nLUYQNr8fX2_IYf5Phfm5YIx7q4zbMliXhMkg9s5MvcLLDFMuK6YNsLNgVOHIwS8ihATAcfSFNGHFcIudKXTlwT0mbnYTJFLhWZS_dT7bF0aM0Yg6zZf8xA6IaaLxc1WPMwJncRjpO3mcZe8hWTp1Y78G-RgpL7Rp0y_RnwqLHECLa61_ZYXpH6hnNK6wyLro93IdfyiV)
-
-**Deployment diagram**
-
-A deployment diagram allows you to illustrate how containers in the static model are mapped to infrastructure. This deployment diagram is based upon a UML deployment diagram, although simplified slightly to show the mapping between containers and deployment nodes. A deployment node is something like physical infrastructure (e.g. a physical server or device), virtualised infrastructure (e.g. IaaS, PaaS, a virtual machine), containerised infrastructure (e.g. a Docker container), an execution environment (e.g. a database server, Java EE web/application server, Microsoft IIS), etc. Deployment nodes can be nested.
-
-**Scope**: A single software system.
-
-**Primary elements**: Deployment nodes and containers within the software system in scope.
-
-**Intended audience**: Technical people inside and outside of the software development team; including software architects, developers and operations/support staff.
-
 ## Aplicativo de leitura
 
 `\Aplicativo de leitura`
 
 [Overview](#leitura)
 
-![diagram](https://www.plantuml.com/plantuml/svg/0/TLBBJiCm4BnNwZyiFHMf91TEd5gL2f02L6ahn2boxLMxacC7Fuhet_I4GE8hycCuwIEWgASuCxCpwqc6rZ7ZV2wxdGjIN7g1i7Qki3TnRDXxj2AtzajlqN2j72eNSPt7J1XYQYDzuUFnzTLKCkKMZqaicKFh0fIDWvgHGXCLjNctaunUdnVpxELXVfybaxl9qst_iiAdQAnM_P7J9fiZLyHrbY0vRoZiDe1UnS2y_AefQAXUu58i3Dgm5WCDxgW9KA6LBNSRb52WP23hAGP2MyXHaD114_Kk_yUF9GKhF6OUNbivV8_3cqVmZYHj0seXTBIXyZESGeUhScS7KEvMdW62zDjsc5P2vwH8d_9gfFm9K3kpuIhxG90elnKdjh_6xCCwpFipgXvLQuTJoyZkyShaL0esdPpVlTj9KJO1vxzNYgogf9ffJpGLfyXnYMTKVxjfX4DKelwRVW40)
+![diagram](https://www.plantuml.com/plantuml/svg/0/hLCzRzim4DqD-3zSFJc0OosTEiLmZBQ0ym77QP19OCI3Sm15AhoZs-RVU2eoPEfFq1yBATaMN3UTEebwz-wzkqVfZ4Lv2QNfzpwGBKpG28yY5N_ACg--ZrSaZ-4XCFh2MK4huyALcTAUb5sRK8Li-l7qsYWhjnVpp2X1bWZbqyJ-8UEgaUxtvfFxgzjbVlTr-IMVppxFBi-79mc_Hi_E3YVYVBx4mbBXyZcI14zniX4CKWMMzKjJWguqYBK5LXuv3gN0WUmu4QgSvNgpHWCL6WMcwLAW7KE9chIBdF7WvD1-QYXAuSvp-thaKxGuF0M486JeEQ8CCQ4rrR_YAIQugZSyWdgp2WeGJ7W-CiidkYGR5_5A9szdjKk0szaVr9DcIwbV8-Te9YQhq-ekn1Trq5bqRT1CSVEJ1SlX3QL7IdXx-ejeWoVlVO3OvVV-dltU0itxLzevBr0ryMtbEJNlM_VNqV6_4OUsmyThbVgtfpRlk2I7qiKP65V1QWLhQgPzS0R57Gh_8_h_QBMJ-kFJcjb4nzDIaM6eb5TjOcTeTVEhl040)
+
+
+
+**Level 1: Diagrama de Contexto**
+
+**Escopo**: O diagrama de contexto representa a interação entre os atores e o sistema de leitura de medidores de gás, água e luz.
+
+**Público-alvo**: O diagrama é destinado aos stakeholders e membros da equipe envolvidos no projeto.
+
+**Notas**: O diagrama mostra os principais atores envolvidos no sistema, incluindo o `Ator Técnico Leiturista`, responsável pelas leituras dos medidores, o `Ator Cliente`, que pode visualizar relatórios de consumo e segunda via de boletos, e o `Ator Administrador de Condomínio`, que também tem acesso aos relatórios e segunda via de boletos. O sistema representa a plataforma que gerencia as leituras e disponibiliza as informações para os atores envolvidos.
+
+
+**Level 1: Diagrama de Contexto**
+
+**Escopo**: O diagrama de contexto representa a interação entre os atores e o sistema de leitura de medidores de gás, água e luz.
+
+**Público-alvo**: O diagrama é destinado aos stakeholders e membros da equipe envolvidos no projeto.
+
+**Notas**: O diagrama mostra os principais atores envolvidos no sistema, incluindo o `Ator Técnico Leiturista`, responsável pelas leituras dos medidores, o `Ator Cliente`, que pode visualizar relatórios de consumo e segunda via de boletos, e o `Ator Administrador de Condomínio`, que também tem acesso aos relatórios e segunda via de boletos. O sistema representa a plataforma que gerencia as leituras e disponibiliza as informações para os atores envolvidos.
+
 
 ## Container
 
@@ -167,4 +57,33 @@ A deployment diagram allows you to illustrate how containers in the static model
 
 [Overview](#leitura)
 
-![diagram](https://www.plantuml.com/plantuml/svg/0/ZLNBRXen5Dr7oZ-uio8IXKrNNOKGcb3HX3AJ9bqXut69LOyzyOCaH5tqKw8kebRg2lKBviTwRSymFAko0Czzd7FlkTV3iJPO6PlnmuDNJ11kKufkZSdrstPRuVlMb9bREx6QAYA5eSAqYCpQE5KCYnctkMrttxmUSYpCrOT1csD3jG7Jk0lHc0cgMha7FpmOT3vVNYNZwtvoFXxqpdeNfuqZPuyVjQ5P8sRk1pTHL9uYE7PopWWsR2OHr3MWp5Y5tV6iUDPDL7oVMep0OUUHnnfIfQLeT8nKuuGImOWSXop0TDZEWvBYftUXskN8HZHNL4EB64bagXWmvLBeudb6ESefnuXNPKYDCfgoL49ConMmIj_b3A1enLa-Rl6GO4TtbY9h66Tpi6e4UizOyG8dQ7OQcdqEpN8xtoQJ8fKP4qmk-Rob-0scRSxQv-31mTBYbo0CXpRggOnFf1KfLe-Dk5zFHgC-bAo4rD7Hq-41Wizot8rEdgyDBcf6xxWr4BynqAnOU4anI4aafyOFjXHNkphMWKym-Kf52Y3b2P1R5xq4GXH5dM4_GireK2ocGE2G19qM2m8jKfGhIQZME0C1VCifJkLE2a7agVDv5dXmmTu0PF770OfXBcKdAiDpAchCgdBWO-AB17VnKloXskz9EUOTdDTq4YI30u9Jq4SApn4Fbnr20IlYtKEmLuu-v58PH_N3Lu7LdOK0J_Hjvo1xguFiFMmCiWm7UwCt6a8eV4Tr1e97uFH9eG06RKrLNS1IMiy-eho-sVklvOXYl_chqzzEhQ_KY18wsTHPomai0YotjfdSWx1wJ_uF9C3iBJtCxYhSt8fqlThT8SvOhtHFp1XUNI6repWtX_VnvKNxF4c6SOMq15dRtcezzwwb1pizwLOmrHvkAFs9QHjce-3TPug5Ok6bjA5pbLukJTZAUXlBofle1lubuiiE12Kt2JmEufjDY4rL24wnDahkasNjjV5lYK9r_PqhwqGRzjiks-KTGmByS_q5)
+![diagram](https://www.plantuml.com/plantuml/svg/0/ZLR1JXin4Br7oZ-uUm8f99UUUYA4gAGA496bq5Fax0wB9Q-zsDv0gVeng0VKIZr5_OBziOxjtUmc9C0bYiSpxyqypqnog0rL9azvk_M1YOZdCP1ROpBzgTTJzBwRC7ERptCDAfB2W33TIAOz6Yj6nOBdMTuRV3oOS2hCvUcunwa1RT0q6w0tPG9KDtFWxTQu_-tyCfnTZSAJsNZuUNXslBTlxHDGMegzlf5g5a8aM2HdOs0cLmnpwv30tf2m-EskI7qLuDq5P0eqfaM99ARoGLCcXIwU5i191fmIxg8eYQKcASGibkZJ3VOh-jdmmVWK1fmX75IyvV45L-Jjv2u7aXl6sIDQDK6T5gnunc-eOr8ywGufdfAS4Y0yVznEA4KiKoQON74wI_4NJIzvwpjBWHSiBlw8Y55VJhir_QuDfBCZcOkOgkzxqn5YJ9arKar6cBGIKWVxFzgjrIFjzRFCicUSHTIm1V86Jd79PS8eeROmvBl1D6CdVErAqcBfTAQeRoGvO9wOMQcujaarU2Os6_nydO1qWd6nJ931GWb8YcM41GF9b8n0QvgY74w0cCPoW-E8YaWUMpjIkODrT8Qtor8fVGHHurTb83SJDnAlY-VY7sZNIMKJRF1VmTpBYLy8VlD2IM7nNsDlQdgFeKvGUCYaCfRqbyk7ghiS7JOeHwbj4IsLdPVwy1PZqzVJCJopb2aojm_fQTejqcxztDfQmsPhOKVNhLMwsYuVNapG3J-3sflW4Mjp0IKp2fcekj3LmpQHJlkZiSKwI2dZJJWC0B7mCm7krc-3xOMxebn55y1tRnx_YfT-kctGohjQ4jLJa-0hqpbrMq13OkKX2-RIQWZvhd25wyeKIyNy3i5vrtagryFhZU6rpRUbM3kzd-P5LxyNRdlHk-6soRtMnANgkxlIGTaq_4eP2alTc5O54SmtXjPsp9Vf-Ldl90mdqnMA1LXR6jKMs3dz3kZuQ511L9AKhUvdjfxLahP3hl4tSdhUHwVmEiJZU7gz2T4i9w8nrKR9NVMixTdTjVciHbi7p6_ZdesiOloKRVmO-eJyQ6dtAkiKrMGstTo0deOJwta88iO_0ly1)
+
+
+
+
+
+**Level 2: Diagrama de Contêiner**
+
+**Escopo**: O diagrama de contêiner representa os principais componentes e tecnologias utilizados no sistema de leitura de medidores de gás, água e luz, fornecendo uma visão detalhada da arquitetura e implantação do sistema.
+
+**Público-alvo**: O diagrama é destinado à equipe técnica envolvida no projeto, incluindo desenvolvedores, arquitetos de software e administradores de sistemas.
+
+**Notas**: O diagrama apresenta os contêineres que compõem o sistema, bem como as tecnologias utilizadas em cada um deles. Os contêineres são unidades de software isoladas que agrupam componentes relacionados e executam funções específicas. A equipe técnica deve estar familiarizada com os conceitos do C4 Model para entender e utilizar efetivamente este diagrama.
+
+No diagrama de contêiner, são identificados os seguintes elementos:
+
+- `App`: Aplicativo móvel para coleta de leituras. A equipe técnica deve selecionar a tecnologia adequada para implementar o aplicativo.
+- `API`: Componente responsável pela lógica de negócio e processamento de dados. A equipe técnica deve definir a tecnologia a ser utilizada para implementar a API.
+- `Banco de Dados`: Armazenamento de leituras e informações dos clientes. A equipe técnica deve escolher a tecnologia apropriada para implementar o banco de dados.
+- `Web Application`: Aplicativo web para exportação de arquivos. A equipe técnica deve determinar a tecnologia adequada para implementar a aplicação web.
+- `Impressora`: Impressora utilizada para imprimir boletos. A equipe técnica deve selecionar a tecnologia adequada para a implementação da impressora.
+
+Além dos contêineres internos, existem sistemas externos integrados ao sistema principal:
+
+- `ERP`: Sistema ERP externo utilizado para integração de dados. A equipe técnica deve definir a tecnologia a ser utilizada para a integração com o ERP.
+- `E-mail`: Sistema de envio de e-mails utilizado para enviar notificações aos clientes. A equipe técnica deve escolher a tecnologia apropriada para implementar o envio de e-mails.
+
+Os relacionamentos entre os contêineres são representados pelas setas, indicando as interações e dependências entre eles. Essas informações são cruciais para a equipe técnica compreender como os componentes se comunicam e colaboram entre si na arquitetura do sistema.
+
+Esse diagrama de contêiner fornece uma representação clara e detalhada dos componentes e tecnologias envolvidas na implementação do sistema, auxiliando a equipe técnica na compreensão e desenvolvimento do sistema de leitura de medidores.

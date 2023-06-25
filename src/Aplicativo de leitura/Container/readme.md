@@ -1,19 +1,3 @@
-# Container
-
-`\Aplicativo de leitura\Container`
-
-* [Overview](../../README.md)
-  * [Aplicativo de leitura](../../Aplicativo%20de%20leitura/README.md)
-    * [**Container**](../../Aplicativo%20de%20leitura/Container/README.md)
-
----
-
-![diagram](https://www.plantuml.com/plantuml/svg/0/ZLR1JXin4Br7oZ-uUm8f99UUUYA4gAGA496bq5Fax0wB9Q-zsDv0gVeng0VKIZr5_OBziOxjtUmc9C0bYiSpxyqypqnog0rL9azvk_M1YOZdCP1ROpBzgTTJzBwRC7ERptCDAfB2W33TIAOz6Yj6nOBdMTuRV3oOS2hCvUcunwa1RT0q6w0tPG9KDtFWxTQu_-tyCfnTZSAJsNZuUNXslBTlxHDGMegzlf5g5a8aM2HdOs0cLmnpwv30tf2m-EskI7qLuDq5P0eqfaM99ARoGLCcXIwU5i191fmIxg8eYQKcASGibkZJ3VOh-jdmmVWK1fmX75IyvV45L-Jjv2u7aXl6sIDQDK6T5gnunc-eOr8ywGufdfAS4Y0yVznEA4KiKoQON74wI_4NJIzvwpjBWHSiBlw8Y55VJhir_QuDfBCZcOkOgkzxqn5YJ9arKar6cBGIKWVxFzgjrIFjzRFCicUSHTIm1V86Jd79PS8eeROmvBl1D6CdVErAqcBfTAQeRoGvO9wOMQcujaarU2Os6_nydO1qWd6nJ931GWb8YcM41GF9b8n0QvgY74w0cCPoW-E8YaWUMpjIkODrT8Qtor8fVGHHurTb83SJDnAlY-VY7sZNIMKJRF1VmTpBYLy8VlD2IM7nNsDlQdgFeKvGUCYaCfRqbyk7ghiS7JOeHwbj4IsLdPVwy1PZqzVJCJopb2aojm_fQTejqcxztDfQmsPhOKVNhLMwsYuVNapG3J-3sflW4Mjp0IKp2fcekj3LmpQHJlkZiSKwI2dZJJWC0B7mCm7krc-3xOMxebn55y1tRnx_YfT-kctGohjQ4jLJa-0hqpbrMq13OkKX2-RIQWZvhd25wyeKIyNy3i5vrtagryFhZU6rpRUbM3kzd-P5LxyNRdlHk-6soRtMnANgkxlIGTaq_4eP2alTc5O54SmtXjPsp9Vf-Ldl90mdqnMA1LXR6jKMs3dz3kZuQ511L9AKhUvdjfxLahP3hl4tSdhUHwVmEiJZU7gz2T4i9w8nrKR9NVMixTdTjVciHbi7p6_ZdesiOloKRVmO-eJyQ6dtAkiKrMGstTo0deOJwta88iO_0ly1)
-
-
-
-
-
 **Level 2: Diagrama de Contêiner**
 
 **Escopo**: O diagrama de contêiner representa os principais componentes e tecnologias utilizados no sistema de leitura de medidores de gás, água e luz, fornecendo uma visão detalhada da arquitetura e implantação do sistema.

@@ -3,34 +3,38 @@
 
 LAYOUT_WITH_LEGEND()
 
-System(Sistema, "Sistema", "Aplicativo de Leitura de Gás, Água e Luz")
-
 Person(Ator_Tecnico_Leiturista, "Ator Técnico Leiturista", "Representa o técnico responsável pela leitura dos medidores.")
-Person(Ator_Cliente, "Ator Cliente", "Representa o cliente que utiliza os serviços de gás, água e luz.")
-Person(Ator_Condominio, "Ator Condomínio", "Representa o condomínio de residências.")
-
+Person_Ext(Ator_Cliente, "Ator Cliente", "Representa o cliente que utiliza os serviços de gás, água e luz.")
+Person_Ext(Ator_Condominio, "Ator Condomínio", "Representa o condomínio de residências.")
 
 System_Boundary(SI, "Sistemas Internos"){
-    Container(App, "Aplicativo","Flutter", "Aplicativo móvel para coleta de leituras")
-    Container(Backend, "Backend",".NET Core API" ,"Lógica de negócio e processamento de dados")
-    Container(BancoDados, "Banco de Dados","SQL Server", "Armazenamento de leituras e informações dos clientes")
-    Container(WebApp, "Web Application", "ASP.NET Core","Aplicativo web para exportação de arquivos")
+Container(App, "Aplicativo","Técnologia a ser definida", "Aplicativo móvel para coleta de leituras")
+Container(API, "API","Técnologia a ser definida" ,"Lógica de negócio e processamento de dados")
+Container(BancoDados, "Banco de Dados","Técnologia a ser definida", "Armazenamento de leituras e informações dos clientes")
+Container(WebApp, "Web Application", "Técnologia a ser definida","Aplicativo web para exportação de arquivos")
+Container(Impressora, "Impressora", "Técnologia a ser definida", "Impressora para imprimir boletos")
+
+ 
 }
 
 System_Boundary(SE, "Sistemas Externos"){
-    System_Ext(ERP, "ERP", "Sistema ERP externo para integração de dados")
+System_Ext(ERP, "ERP", "Sistema ERP externo para integração de dados")
+System_Ext(EMAIL, "E-mail", "Sistema de envio de e-mail técnologia a ser definida")
+
 }
 
-Rel(Sistema, Ator_Tecnico_Leiturista, "Realiza leituras")
-Rel(Sistema, Ator_Cliente, "Recebe informações sobre consumo")
-Rel(Sistema, Ator_Condominio, "Recebe informações sobre consumo")
-
 Rel(Ator_Tecnico_Leiturista, App, "Utiliza")
-Rel(Ator_Cliente, App, "Utiliza")
-Rel(App, Backend, "Envia leituras e recebe informações", "JSON/HTTPS")
-Rel(Backend, BancoDados, "Armazena leituras e informações", "JDBC")
-Rel(WebApp, Ator_Cliente, "Visualiza relatórios de consumo")
+Rel(Ator_Cliente,WebApp,  "Visualiza segunda via de boletos")
+Rel(Ator_Cliente,WebApp,  "Visualiza relatórios de consumo")
+Rel(Ator_Condominio,ERP, "utiliza")
+Rel(Ator_Condominio,WebApp,  "Visualiza relatórios de consumo dos clientes")
+Rel(Ator_Condominio,WebApp,  "Visualiza segunda via de boletos dos clientes")
+Rel(Ator_Tecnico_Leiturista, Impressora, "Utiliza para imprimir boletos")
+Rel(App, API, "Envia leituras e recebe informações", "JSON/HTTPS")
+Rel(API, BancoDados, "Armazena leituras e informações", "JDBC")
 Rel(WebApp, ERP, "Exporta arquivos", "JSON, XML/SOAP, TXT, XLSX")
-Rel(WebApp, Backend, "Envia cadastros e recebe informações de leituras", "JSON/HTTPS")
-Rel(Backend, ERP, "Integração de dados", "API/JSON")
+Rel(WebApp, API, "Envia cadastros e recebe informações de leituras", "JSON/HTTPS")
+Rel(API, ERP, "Integração de dados", "API/JSON")
+Rel(EMAIL,Ator_Cliente, "Envia e-mails para")
+Rel(API, EMAIL, "Envia e-mails", "SMTP")
 @enduml

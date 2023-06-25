@@ -1,3 +1,22 @@
 # Aplicativo de leitura
 
-![diagram](https://www.plantuml.com/plantuml/svg/0/TLBBJiCm4BnNwZyiFHMf91TEd5gL2f02L6ahn2boxLMxacC7Fuhet_I4GE8hycCuwIEWgASuCxCpwqc6rZ7ZV2wxdGjIN7g1i7Qki3TnRDXxj2AtzajlqN2j72eNSPt7J1XYQYDzuUFnzTLKCkKMZqaicKFh0fIDWvgHGXCLjNctaunUdnVpxELXVfybaxl9qst_iiAdQAnM_P7J9fiZLyHrbY0vRoZiDe1UnS2y_AefQAXUu58i3Dgm5WCDxgW9KA6LBNSRb52WP23hAGP2MyXHaD114_Kk_yUF9GKhF6OUNbivV8_3cqVmZYHj0seXTBIXyZESGeUhScS7KEvMdW62zDjsc5P2vwH8d_9gfFm9K3kpuIhxG90elnKdjh_6xCCwpFipgXvLQuTJoyZkyShaL0esdPpVlTj9KJO1vxzNYgogf9ffJpGLfyXnYMTKVxjfX4DKelwRVW40)
+![diagram](https://www.plantuml.com/plantuml/svg/0/hLCzRzim4DqD-3zSFJc0OosTEiLmZBQ0ym77QP19OCI3Sm15AhoZs-RVU2eoPEfFq1yBATaMN3UTEebwz-wzkqVfZ4Lv2QNfzpwGBKpG28yY5N_ACg--ZrSaZ-4XCFh2MK4huyALcTAUb5sRK8Li-l7qsYWhjnVpp2X1bWZbqyJ-8UEgaUxtvfFxgzjbVlTr-IMVppxFBi-79mc_Hi_E3YVYVBx4mbBXyZcI14zniX4CKWMMzKjJWguqYBK5LXuv3gN0WUmu4QgSvNgpHWCL6WMcwLAW7KE9chIBdF7WvD1-QYXAuSvp-thaKxGuF0M486JeEQ8CCQ4rrR_YAIQugZSyWdgp2WeGJ7W-CiidkYGR5_5A9szdjKk0szaVr9DcIwbV8-Te9YQhq-ekn1Trq5bqRT1CSVEJ1SlX3QL7IdXx-ejeWoVlVO3OvVV-dltU0itxLzevBr0ryMtbEJNlM_VNqV6_4OUsmyThbVgtfpRlk2I7qiKP65V1QWLhQgPzS0R57Gh_8_h_QBMJ-kFJcjb4nzDIaM6eb5TjOcTeTVEhl040)
+
+
+
+**Level 1: Diagrama de Contexto**
+
+**Escopo**: O diagrama de contexto representa a interação entre os atores e o sistema de leitura de medidores de gás, água e luz.
+
+**Público-alvo**: O diagrama é destinado aos stakeholders e membros da equipe envolvidos no projeto.
+
+**Notas**: O diagrama mostra os principais atores envolvidos no sistema, incluindo o `Ator Técnico Leiturista`, responsável pelas leituras dos medidores, o `Ator Cliente`, que pode visualizar relatórios de consumo e segunda via de boletos, e o `Ator Administrador de Condomínio`, que também tem acesso aos relatórios e segunda via de boletos. O sistema representa a plataforma que gerencia as leituras e disponibiliza as informações para os atores envolvidos.
+
+
+**Level 1: Diagrama de Contexto**
+
+**Escopo**: O diagrama de contexto representa a interação entre os atores e o sistema de leitura de medidores de gás, água e luz.
+
+**Público-alvo**: O diagrama é destinado aos stakeholders e membros da equipe envolvidos no projeto.
+
+**Notas**: O diagrama mostra os principais atores envolvidos no sistema, incluindo o `Ator Técnico Leiturista`, responsável pelas leituras dos medidores, o `Ator Cliente`, que pode visualizar relatórios de consumo e segunda via de boletos, e o `Ator Administrador de Condomínio`, que também tem acesso aos relatórios e segunda via de boletos. O sistema representa a plataforma que gerencia as leituras e disponibiliza as informações para os atores envolvidos.
