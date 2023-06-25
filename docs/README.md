@@ -7,8 +7,8 @@
       * [Dynamic Diagram](1%20Internet%20Banking%20System/Single%20Page%20Application/Dynamic%20Diagram/README.md)
       * [Extended Docs](1%20Internet%20Banking%20System/Single%20Page%20Application/Extended%20Docs/README.md)
   * [2 Deployment](2%20Deployment/README.md)
-  * [Aplicatiovo de leitura](Aplicatiovo%20de%20leitura/README.md)
-    * [Container](Aplicatiovo%20de%20leitura/Container/README.md)
+  * [Aplicativo de leitura](Aplicativo%20de%20leitura/README.md)
+    * [Container](Aplicativo%20de%20leitura/Container/README.md)
 
 ---
 
@@ -16,7 +16,7 @@
 
 - [2 Deployment](2%20Deployment/README.md)
 
-- [Aplicatiovo de leitura](Aplicatiovo%20de%20leitura/README.md)
+- [Aplicativo de leitura](Aplicativo%20de%20leitura/README.md)
 
 ---
 

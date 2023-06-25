@@ -7,7 +7,7 @@
       * [Dynamic Diagram](#Dynamic-Diagram)
       * [Extended Docs](#Extended-Docs)
   * [2 Deployment](#2-Deployment)
-  * [Aplicatiovo de leitura](#Aplicatiovo-de-leitura)
+  * [Aplicativo de leitura](#Aplicativo-de-leitura)
     * [Container](#Container)
 
 ---
@@ -153,9 +153,9 @@ A deployment diagram allows you to illustrate how containers in the static model
 
 **Intended audience**: Technical people inside and outside of the software development team; including software architects, developers and operations/support staff.
 
-## Aplicatiovo de leitura
+## Aplicativo de leitura
 
-`\Aplicatiovo de leitura`
+`\Aplicativo de leitura`
 
 [Overview](#leitura)
 
@@ -163,7 +163,7 @@ A deployment diagram allows you to illustrate how containers in the static model
 
 ## Container
 
-`\Aplicatiovo de leitura\Container`
+`\Aplicativo de leitura\Container`
 
 [Overview](#leitura)
 
