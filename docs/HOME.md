@@ -14,3 +14,6 @@ Detail isn't important here as this is your zoomed out view showing a big pictur
 Supporting elements: People (e.g. users, actors, roles, or personas) and software systems (external dependencies) that are directly connected to the software system in scope. Typically these other software systems sit outside the scope or boundary of your own software system, and you don’t have responsibility or ownership of them.
 
 **Intended audience**: Everybody, both technical and non-technical people, inside and outside of the software development team.
+
+
+

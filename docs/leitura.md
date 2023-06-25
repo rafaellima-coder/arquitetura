@@ -23,6 +23,10 @@ Supporting elements: People (e.g. users, actors, roles, or personas) and softwar
 
 **Intended audience**: Everybody, both technical and non-technical people, inside and outside of the software development team.
 
+
+
+
+
 ## Aplicativo de leitura
 
 `\Aplicativo de leitura`
