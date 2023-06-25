@@ -4,8 +4,8 @@
 LAYOUT_WITH_LEGEND()
 
 Person(Ator_Tecnico_Leiturista, "Ator Técnico Leiturista", "Representa o técnico responsável pela leitura dos medidores.")
-Person(Ator_Cliente, "Ator Cliente", "Representa o cliente que utiliza os serviços de gás, água e luz.")
-Person(Ator__Administrador_Condominio, "Ator Administrador de Condomínio", "Representa o sindico ou o administrador condomínio .")
+Person_Ext(Ator_Cliente, "Ator Cliente", "Representa o cliente que utiliza os serviços de gás, água e luz.")
+Person_Ext(Ator__Administrador_Condominio, "Ator Administrador de Condomínio", "Representa o sindico ou o administrador condomínio .")
 System(Sistema, "Sistema", "Representa o sistema de leitura de medidores de gás, água e luz.")
 
 Rel(Ator_Tecnico_Leiturista, Sistema, "Realiza leituras")
