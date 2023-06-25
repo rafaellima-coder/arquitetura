@@ -1,0 +1,14 @@
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Container.puml
+
+LAYOUT_WITH_LEGEND()
+
+Person(Ator_Tecnico_Leiturista, "Ator Técnico Leiturista", "Representa o técnico responsável pela leitura dos medidores.")
+Person(Ator_Cliente, "Ator Cliente", "Representa o cliente que utiliza os serviços de gás, água e luz.")
+Person(Ator_Condominio, "Ator Condomínio", "Representa o condomínio de residências.")
+System(Sistema, "Sistema", "Representa o sistema de leitura de medidores de gás, água e luz.")
+
+Rel(Sistema, Ator_Tecnico_Leiturista, "Realiza")
+Rel(Sistema, Ator_Cliente, "Recebe")
+Rel(Sistema, Ator_Condominio, "Recebe")
+@enduml
