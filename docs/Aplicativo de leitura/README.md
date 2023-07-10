@@ -4,11 +4,14 @@
 
 * [Overview](../README.md)
   * [**Aplicativo de leitura**](../Aplicativo%20de%20leitura/README.md)
+    * [Components](../Aplicativo%20de%20leitura/Components/README.md)
     * [Container](../Aplicativo%20de%20leitura/Container/README.md)
 
 ---
 
 [Overview (up)](../README.md)
+
+- [Components](../Aplicativo%20de%20leitura/Components/README.md)
 
 - [Container](../Aplicativo%20de%20leitura/Container/README.md)
 
