@@ -1,0 +1,53 @@
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/v1.4.0/C4_Component.puml
+
+LAYOUT_WITH_LEGEND()
+
+Person(Ator_Tecnico_Leiturista, "Ator Técnico Leiturista", "Representa o técnico responsável pela leitura dos medidores.")
+Person_Ext(Ator_Cliente, "Ator Cliente", "Representa o cliente que utiliza os serviços de gás, água e luz.")
+Person_Ext(Ator_Condominio, "Ator Condomínio", "Representa o condomínio de residências.")
+
+System_Boundary(App, "Aplicativo"){
+    Container(Leitura, "Coleta de Leituras", "Tecnologia a ser definida")
+    Container(UI, "Interface do Usuário", "Tecnologia a ser definida")
+}
+
+System_Boundary(API, "API"){
+    Container(BusinessLogic, "Lógica de Negócio", "Tecnologia a ser definida")
+    Container(DataProcessing, "Processamento de Dados", "Tecnologia a ser definida")
+}
+
+System_Boundary(BancoDados, "Banco de Dados"){
+    Container(LeituraDB, "Armazenamento de Leituras", "Tecnologia a ser definida")
+    Container(ClientDB, "Informações dos Clientes", "Tecnologia a ser definida")
+}
+
+System_Boundary(WebApp, "Web Application"){
+    Container(Export, "Exportação de Arquivos", "Tecnologia a ser definida")
+    Container(WebUI, "Interface do Usuário", "Tecnologia a ser definida")
+}
+
+System_Boundary(Impressora, "Impressora"){
+    Container(Printer, "Impressora", "Tecnologia a ser definida")
+}
+
+System_Boundary(Notificador, "Notificador"){
+    Container(Notifier, "Envio de Notificações", "Tecnologia a ser definida")
+}
+
+Rel(Ator_Tecnico_Leiturista, App, "Utiliza")
+Rel(Ator_Cliente,WebApp,  "Visualiza segunda via de boletos")
+Rel(Ator_Cliente,WebApp,  "Visualiza relatórios de consumo")
+Rel(Ator_Condominio,WebApp,  "Visualiza relatórios de consumo dos clientes")
+Rel(Ator_Condominio,WebApp,  "Visualiza segunda via de boletos dos clientes")
+Rel(Ator_Tecnico_Leiturista, Impressora, "Utiliza para imprimir boletos")
+Rel(App, API, "Envia leituras e recebe informações", "JSON/HTTPS")
+Rel(API, BancoDados, "Armazena leituras e informações", "JDBC")
+Rel(WebApp, API, "Envia cadastros e recebe informações de leituras", "JSON/HTTPS")
+Rel(Notificador, Ator_Cliente, "Envia notificações para")
+Rel(WebApp, ERP, "Exporta arquivos", "JSON, XML/SOAP, TXT, XLSX")
+Rel(WebApp, EMAIL, "Envia e-mails", "SMTP")
+Rel(EMAIL, Ator_Cliente, "Envia e-mails para")
+Rel(WebApp, ERP, "Integração de dados", "API/JSON")
+
+@enduml
