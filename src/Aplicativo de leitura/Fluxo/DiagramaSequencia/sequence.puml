@@ -1,0 +1,20 @@
+@startuml
+actor "Ator Técnico Leiturista" as Leiturista
+actor "Ator Cliente" as Cliente
+actor "Ator Administrador de Condomínio" as Administrador
+
+Leiturista -> App: Realizar Leitura
+App -> API: Enviar Leitura
+API -> BancoDados: Armazenar Leitura
+API -> API: Validar Leitura
+alt Leitura Válida?
+  API -> App: Leitura Válida
+else Leitura Inválida
+  API -> App: Leitura Inválida
+end
+
+App -> App: Gerar Relatórios
+App -> Cliente: Enviar Relatórios
+App -> Administrador: Enviar Relatórios
+
+@enduml
